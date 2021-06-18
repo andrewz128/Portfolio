@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./contents/Home";
 import About from "./contents/About";
 import Employment from "./contents/Employment";
+import Portfolio from "./contents/Portfolio";
 import Skills from "./contents/Skills";
 import Contact from "./contents/Contact";
 
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/skills">
           <Skills />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
         </Route>
         <Route path="/contact">
           <Contact />

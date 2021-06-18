@@ -10,14 +10,17 @@ class About extends Component {
         <h3>Full Stack Web Developer</h3>
         <br></br>
         <p>
-          I started my journey in the world of computers from an young age, now
-          I’m 20 years old, Pursuing my Software Engineering Degree in VIT
-          University Vellore. Web development is my center of interest, i always
-          love the idea of cross-platform development, 1-n one code base deploy
-          into almost any platform, which web technology like Javascript enables
-          me to do. I also like creating Interactive UI components for better UX
-          and share those desgin and codes to the world through Github, Codepen
-          and Instagram.
+          I am a seasoned professional with eight years of IT experience and 5+
+          years of Full Stack JS developer experience. My main focus is on JS
+          libraries like React, Vue, React Native, Angular, and Node. And I am
+          familiar with Laravel and Swift as well. I will create any web or
+          mobile project you require with the mentioned skills above. My biggest
+          strength is the experience I gained while working on many projects for
+          a long time. If you hire me, high-quality cords and long-term support
+          will reward your expectations. As a solo developer, I am flexible on
+          working hours. I will always be by your side until the project is
+          completed and would like to establish a friendly relationship with
+          you. Thank you.
         </p>
       </div>
     );

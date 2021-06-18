@@ -61,6 +61,45 @@ nav ul li {
   margin: 40px;
 }
 
+.portfolio {
+  color: black;
+}
+
+.storeIcon {
+  height: 50px;
+  margin-right: 20px;
+}
+
+div.portImage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 10px;
+}
+img.portImage {
+  width: 30%;
+}
+img.portImage:hover {
+  transform: scale(1.1);
+}
+ul.portfolio {
+}
+li.portfolio {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+  img.portImage {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  img.portImage {
+    width: 100%;
+  }
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -91,7 +130,7 @@ p {
   color: #9a9b9c;
 }
 .social i:hover {
-  color: #ffffff;
+  color: #252375;
 }
 .widecard {
   border: 0px solid #9a9b9c;

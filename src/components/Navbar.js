@@ -39,6 +39,11 @@ class Navbar extends Component {
             activec={this.activeitem}
           ></Navitem>
           <Navitem
+            item="Portfolios"
+            tolink="/portfolio"
+            activec={this.activeitem}
+          ></Navitem>
+          <Navitem
             item="Contact"
             tolink="/contact"
             activec={this.activeitem}
