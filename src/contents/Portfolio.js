@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import appstore from "../img/appstore.png";
 import playstore from "../img/playstore.png";
+import Gallery from "../components/Gallery";
 
 const data = [
   {
@@ -10,17 +11,17 @@ const data = [
     appstorelink: "https://apps.apple.com/us/app/drybar/id464998465",
     playstorelink: "",
     images: [
-      "img/dry/1_login.png",
-      "img/dry/2_signup.png",
-      "img/dry/5_home.png",
-      "img/dry/3_login.png",
-      "img/dry/4_home.png",
-      "img/dry/5_home.png",
-      "img/dry/6_appointments.png",
-      "img/dry/7_books.png",
-      "img/dry/8_selectdate.png",
-      "img/dry/9_Notes.png",
-      "img/dry/10_addcard.png",
+      { src: "img/dry/1_login.png" },
+      { src: "img/dry/2_signup.png" },
+      { src: "img/dry/5_home.png" },
+      { src: "img/dry/3_login.png" },
+      { src: "img/dry/4_home.png" },
+      { src: "img/dry/5_home.png" },
+      { src: "img/dry/6_appointments.png" },
+      { src: "img/dry/7_books.png" },
+      { src: "img/dry/8_selectdate.png" },
+      { src: "img/dry/9_Notes.png" },
+      { src: "img/dry/10_addcard.png" },
     ],
   },
   {
@@ -31,12 +32,12 @@ const data = [
     playstorelink:
       "https://play.google.com/store/apps/details?id=com.blueclerk.app&hl=en_US&gl=US",
     images: [
-      "img/blue/Login.png",
-      "img/blue/Signup.png",
-      "img/blue/Scantag.png",
-      "img/blue/Alljobs.png",
-      "img/blue/AddLocation.png",
-      "img/blue/AddEquipment.png",
+      { src: "img/blue/Login.png" },
+      { src: "img/blue/Signup.png" },
+      { src: "img/blue/Scantag.png" },
+      { src: "img/blue/Alljobs.png" },
+      { src: "img/blue/AddLocation.png" },
+      { src: "img/blue/AddEquipment.png" },
     ],
   },
 ];
@@ -74,16 +75,7 @@ class Portfolio extends Component {
                     />
                   </a>
                 )}
-                <div className="portImage">
-                  {item.images.map((img, i) => (
-                    <img
-                      key={i}
-                      src={img}
-                      alt="portfolio"
-                      className="portImage"
-                    />
-                  ))}
-                </div>
+                <Gallery imgs={item.images} />
               </span>
             </li>
           ))}

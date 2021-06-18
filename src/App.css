@@ -78,26 +78,15 @@ div.portImage {
   gap: 10px;
 }
 img.portImage {
-  width: 30%;
+  width: 100%;
+  height: 100%;
 }
 img.portImage:hover {
   transform: scale(1.1);
 }
-ul.portfolio {
-}
+
 li.portfolio {
   margin-bottom: 30px;
-}
-
-@media screen and (max-width: 1300px) and (min-width: 1000px) {
-  img.portImage {
-    width: 48%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  img.portImage {
-    width: 100%;
-  }
 }
 
 a {
