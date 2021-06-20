@@ -25,6 +25,22 @@ const data = [
     ],
   },
   {
+    name: "believr",
+    description:
+      "believr. is a modern app for a community that celebrates what makes relationships special and expresses a basic human truth: we all want to be connected and loved, regardless of our background or preferences.",
+    appstorelink: "https://apps.apple.com/us/app/believr/id1493599874",
+    playstorelink: "https://play.google.com/store/apps/details?id=app.believr",
+    images: [
+      { src: "img/bel/screen.png" },
+      { src: "img/bel/1.png" },
+      { src: "img/bel/2.png" },
+      { src: "img/bel/3.png" },
+      { src: "img/bel/4.png" },
+      { src: "img/bel/5.png" },
+      { src: "img/bel/6.png" },
+    ],
+  },
+  {
     name: "BlueClerk",
     description:
       "The BlueClerk mobile application allows users to code, set, and scan tags to units and record work. Submit job reports, route to customers and update logs in real time.",
